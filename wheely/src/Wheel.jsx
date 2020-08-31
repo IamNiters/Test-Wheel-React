@@ -5,13 +5,41 @@ function Wheel() {
   return (
     <div>
       <ul className="HeroCircle">
-        <li>1📚</li>
-        <li>2🎥</li>
-        <li>3</li>
-        <li>4</li>
-        <li>5</li>
-        <li>6</li>
-        <li>7</li>
+        <li>
+          <div class="Innertext">
+            <p>1📚</p>
+          </div>
+        </li>
+        <li>
+          <div class="Innertext">
+            <p>2🎥</p>
+          </div>
+        </li>
+        <li>
+          <div class="Innertext">
+            <p>3🎹</p>
+          </div>
+        </li>
+        <li>
+          <div class="Innertext">
+            <p>4🎭</p>
+          </div>
+        </li>
+        <li>
+          <div class="Innertext">
+            <p>5📺</p>
+          </div>
+        </li>
+        <li>
+          <div class="Innertext">
+            <p>6🎮</p>
+          </div>
+        </li>
+        <li>
+          <div class="Innertext">
+            <p>7🎲</p>
+          </div>
+        </li>
       </ul>
     </div>
   );
