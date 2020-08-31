@@ -1,36 +1,137 @@
 li:first-child {
   background-color: blue;
-  transform: rotate(0deg) skewY(-60deg);
+  transform: rotate(0deg);
+  z-index: 1;
 }
 
 li:nth-child(2) {
   background-color: green;
-  transform: rotate(51.42deg) skewY(-60deg);
+  transform: rotate(15deg);
+  z-index: 1;
 }
 
 li:nth-child(3) {
   background-color: red;
-  transform: rotate(102.84deg) skewY(-60deg);
+  transform: rotate(30deg);
+  z-index: 1;
 }
 
 li:nth-child(4) {
   background-color: violet;
-  transform: rotate(154.26deg) skewY(-60deg);
+  transform: rotate(45deg);
+  z-index: 1;
 }
 
 li:nth-child(5) {
   background-color: purple;
-  transform: rotate(205.68deg) skewY(-60deg);
+  transform: rotate(60deg);
+  z-index: 1;
 }
 
 li:nth-child(6) {
   background-color: yellow;
-  transform: rotate(257.1deg) skewY(-60deg);
+  transform: rotate(75deg);
+  z-index: 1;
 }
 
 li:nth-child(7) {
   background-color: brown;
-  transform: rotate(308.52deg) skewY(-60deg);
+  transform: rotate(90deg);
+  z-index: 1;
+}
+li:nth-child(8) {
+  background-color: rgb(75, 11, 194);
+  transform: rotate(105deg);
+  z-index: 1;
+}
+
+li:nth-child(9) {
+  background-color: rgb(126, 204, 161);
+  transform: rotate(120deg);
+  z-index: 1;
+}
+li:nth-child(10) {
+  background-color: rgb(245, 29, 0);
+  transform: rotate(135deg);
+  z-index: 1;
+}
+li:nth-child(11) {
+  background-color: rgb(14, 225, 240);
+  transform: rotate(150deg);
+  z-index: 1;
+}
+li:nth-child(12) {
+  background-color: rgb(0, 132, 255);
+  transform: rotate(165deg);
+  z-index: 1;
+}
+
+li:nth-child(13) {
+  background-color: greenyellow;
+  transform: rotate(180deg);
+  z-index: 1;
+}
+
+li:nth-child(14) {
+  background-color: rgb(255, 251, 0);
+  transform: rotate(195deg);
+  z-index: 1;
+}
+
+li:nth-child(15) {
+  background-color: rgba(233, 233, 233, 0.904);
+  transform: rotate(210deg);
+  z-index: 1;
+}
+
+li:nth-child(16) {
+  background-color: rgb(0, 233, 250);
+  transform: rotate(225deg);
+  z-index: 1;
+}
+li:nth-child(17) {
+  background-color: rgb(228, 0, 209);
+  transform: rotate(240deg);
+  z-index: 1;
+}
+li:nth-child(18) {
+  background-color: rgb(230, 8, 8);
+  transform: rotate(255deg);
+  z-index: 1;
+}
+
+li:nth-child(19) {
+  background-color: rgb(245, 113, 4);
+  transform: rotate(270deg);
+  z-index: 1;
+}
+
+li:nth-child(20) {
+  background-color: rgb(255, 218, 6);
+  transform: rotate(285deg);
+  z-index: 0;
+}
+
+li:nth-child(21) {
+  background-color: rgb(102, 248, 4);
+  transform: rotate(300deg);
+  z-index: -1;
+}
+
+li:nth-child(22) {
+  background-color: rgb(0, 248, 248);
+  transform: rotate(315deg);
+  z-index: -1;
+}
+li:nth-child(23) {
+  background-color: rgb(17, 0, 255);
+  transform: rotate(330deg);
+  z-index: -1;
+}
+li:nth-child(24) {
+  background-color: rgb(177, 0, 212);
+  transform: rotate(345deg);
+  z-index: 0;
 }
 
 .HeroCircle {
@@ -55,12 +156,11 @@ li {
   transform-origin: 0% 100%;
 }
 
-.Innertext {
+/* .Innertext {
   position: absolute;
   left: -100%;
   width: 200%;
   height: 200%;
   text-align: center;
   display: block;
-  transform: skewY(60deg) rotate(15deg);
-}
+} */
